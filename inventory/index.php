@@ -51,7 +51,7 @@
                 <span class="info-box-text">Stock On Hand Inventory</span>
                 <span class="info-box-number">
                   <?php
-						include "koneksi.php";
+						include "../koneksi.php";
 						$sqlCommand = "SELECT COUNT(*) FROM stock"; 
 						$query = mysqli_query($koneksi, $sqlCommand) or die (mysqli_error()); 
 						$rows = mysqli_fetch_row($query);

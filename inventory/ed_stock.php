@@ -1,5 +1,5 @@
 <?php
-    include "koneksi.php";
+    include "../koneksi.php";
 	$id		= htmlspecialchars($_GET['id']);
 	$modal	= mysqli_query($koneksi,"SELECT * FROM stock WHERE id='$id'");
 	while($data=mysqli_fetch_array($modal)){

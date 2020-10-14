@@ -46,7 +46,7 @@
 				</thead>
 				<tbody>
 				 <?php 
-					include "koneksi.php";
+					include "../koneksi.php";
 					$no = 1;
 					$total = 0;
 					$tot_bayar = 0;

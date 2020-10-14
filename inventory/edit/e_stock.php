@@ -1,5 +1,5 @@
 <?php
-include '../koneksi.php';
+include '../../koneksi.php';
 	$id			= htmlspecialchars($_POST['id']);
 if(isset($_POST['save'])){
 	$part_no	= htmlspecialchars($_POST['part_no']);

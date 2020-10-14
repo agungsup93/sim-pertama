@@ -1,6 +1,6 @@
 <?php
 error_reporting(0);
-include '../koneksi.php';
+include '../../koneksi.php';
 if (isset($_POST['save'])){
 $part_no	= htmlspecialchars($_POST['part_no']);
 $material	= htmlspecialchars($_POST['material']);
