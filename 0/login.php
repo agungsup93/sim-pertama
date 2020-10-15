@@ -75,9 +75,11 @@
 		<br>	
         <div class="row">
           <div class="col-6">
-		  <a href="index">
+		  <a href="../index">
             <button type="button" class="btn btn-danger btn-block"><span class="fas fa-backspace"></span>&nbsp;&nbsp;Back</button>
-          </div>
+          	<br>		
+			<a href="lali/forgot">Lupa Password</a>
+		  </div>
 		  </a>
 		  <div class="col-6">
             <button type="submit" class="btn btn-primary btn-block">Sign In&nbsp;&nbsp;<span class="fas fa-external-link-alt"></span></button>
